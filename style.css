@@ -8,7 +8,12 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   }
-  nav{                                                                                 /*navbar part*/
+  @media (min-width: 993px)                                  /*large device adove 993px*/
+  {
+
+  }
+
+     nav{                                                                                 /*navbar part*/
     background-color:#1A0B2E;
     color:white;
     display:flex;
@@ -18,7 +23,7 @@
 }
 .logo                                                                                  /* logo part   */
 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: inter;
     font-size: 35px;
    
 }
@@ -57,4 +62,102 @@
     align-items: center;
    gap:3px;
    
+}
+ .banner                                                          /*banner section*/
+ {
+    height:100%;
+    width:100%;
+background-image: url('./asset/hero-bg.png');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+ display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+    padding-top: 50px;
+    padding-bottom: 40px;
+ }
+.container                                            /*set the circle*/
+ {
+    position:relative;
+  height:350px;
+  width:350px;
+  margin-top:0px;
+  margin-bottom:40px;
+ }  
+ .circle img{ 
+   height: 100%;
+   width:100%;
+   object-fit: contain;
+ }
+.mic                                                       /*set the mic*/
+{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 120px;
+    
+}
+#green                                                  /*the green section on the mic*/
+{
+    background-color: #00FF88;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 500;
+    padding:8px 16px;
+    border-radius: 50px;
+    color:black;
+  position: absolute;
+   top:5px;
+    right: 50px;
+    box-shadow: 5px white;
+box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
+    
+}
+#title                                    /*brand name on the banner*/
+{
+    font-family: inter;
+    font-size:50px;
+    margin-bottom: 20px;
+}
+#line                                     /*text line of the banner*/
+{
+    color: rgba(255, 255, 255, 0.595);
+}
+.button{                                   /*buttons of the banner*/
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+    gap:8px;
+   
+}
+.button2
+{
+    display:flex;
+    align-items: center;
+    padding:12.5px 20px;
+    border:none;
+    background:linear-gradient(45deg,#f9ec3b, #ff0099, #9d00ff);
+    border-radius:50px;
+     font-size:15px;
+     font-weight: 400;
+     gap:10px;
+     color:white;
+}
+.button3
+{
+     display:flex;
+    align-items: center;
+    padding:11px 19px;
+     border-radius:50px;
+     font-size:15px;
+     font-weight: 400;
+     gap:10px;
+     color:#00FF88;
+    border:none;
+     background:transparent;
+     border:1px solid #00FF88;
 }
