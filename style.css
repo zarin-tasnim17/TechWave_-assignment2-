@@ -232,7 +232,7 @@ hr{
     justify-content: center;
     align-items: center;
    flex-direction: column;
-   padding:120px 200px;
+   padding:50px 50px;
    gap:50px;
    background-color: rgba(35, 14, 61, 1);
    color: white;
@@ -308,4 +308,79 @@ grid-area: box5;
    font-family: inter;
    font-size:50px;
    font-weight: 700;
+}
+.video_part                                /*the full video section*/
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+       padding:50px 50px;
+       gap:50px;
+       color:white;
+       background-color:rgba(26, 11, 46, 1);
+}
+.video_section                              /*the full video card section*/
+{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; 
+    gap:50px;
+    align-items: stretch;
+    
+}
+.video                                    
+{
+   
+    width:100%; 
+    border-radius: 40px;
+ 
+   background-color:rgba(37, 13, 68, 1);
+   border-radius: 40px;
+
+}
+.card                                            /*the video part of the card*/
+{
+     position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  background-size: cover;
+ 
+}
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.text_content {                                 /*the title and description section of the card*/
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+.video_title{
+    margin: 0;
+    font-size: 15px;
+    font-family: inter;
+    font-weight: 700;
+}
+
+.video_para {
+    font-size: 15px;
+    color: #bfaec9; 
+    font-family: inter;
+    line-height: 1.5;
+    margin: 0;
+}
+.footer{
+    color: #00FF88;
+   
 }
