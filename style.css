@@ -489,7 +489,7 @@ background-position: center;
   }
 
 
- @media (min-width: 576px)                           /*small device upto 576px*/
+ @media (max-width: 576px)                       /*small device upto 576px*/
   {
     .boxes{
         flex-wrap: wrap;
