@@ -8,10 +8,6 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   }
-  @media (min-width: 993px)                                  /*large device adove 993px*/
-  {
-
-  }
 
      nav{                                                                                 /*navbar part*/
     background-color:#1A0B2E;
@@ -468,6 +464,7 @@ background-position: center;
 {
      display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center; 
  gap:50px;
   
@@ -486,9 +483,47 @@ background-position: center;
     color:rgba(255, 255, 255, 0.673);
     font-weight: 200;
 } 
+ @media (min-width: 993px)                                  /*large device adove 993px*/
+  {
+
+  }
 
 
+ @media (min-width: 576px)                           /*small device upto 576px*/
+  {
+    .boxes{
+        flex-wrap: wrap;
+       
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .video_section{
+       display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .hostcard{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+  
+    .media{
+        justify-content: center;
+    }
+    .hostname{
+        display:flex;
+        justify-content: center;
+    }
+    .hostinfo{
+      
+        text-align: center;
+    }
 
+  }
 
 
 
