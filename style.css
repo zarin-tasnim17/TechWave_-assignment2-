@@ -306,8 +306,9 @@ grid-area: box5;
 .headline
 {
    font-family: inter;
-   font-size:50px;
-   font-weight: 700;
+   font-size:40px;
+   font-weight: 800;
+  letter-spacing: 2;
 }
 .video_part                                /*the full video section*/
 {
@@ -315,7 +316,7 @@ grid-area: box5;
     align-items: center;
     justify-content: center;
     flex-direction: column; 
-       padding:50px 50px;
+       padding:100px 100px;
        gap:50px;
        color:white;
        background-color:rgba(26, 11, 46, 1);
@@ -326,7 +327,7 @@ grid-area: box5;
     align-items: center;
     justify-content: center;
     flex-direction: row; 
-    gap:50px;
+    gap:30px;
     align-items: stretch;
     
 }
@@ -337,7 +338,7 @@ grid-area: box5;
     border-radius: 40px;
  
    background-color:rgba(37, 13, 68, 1);
-   border-radius: 40px;
+   
 
 }
 .card                                            /*the video part of the card*/
@@ -384,3 +385,113 @@ grid-area: box5;
     color: #00FF88;
    
 }
+.host                                       /*host card part*/
+{
+    margin-top:120px;
+}
+.host
+{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.hostcard
+{
+       display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; 
+    gap:20px;
+    background-color:rgba(37, 13, 68, 1);
+    padding:20px;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-family:inter;
+}
+.hostname
+{
+    font-weight: 600;
+    font-size: 25px;
+}
+.hostinfo
+{
+    font-size: 15px;
+    font-weight: 300;
+    color: #bfaec9;
+}
+.media{
+          display: flex;
+    align-items: center;
+    
+    flex-direction:row; 
+    gap:10px;
+
+}
+
+.media1
+{
+    height:40px;
+    width:40px;
+     border: 2px solid rgba(255, 255, 255, 0.2);
+       display: flex;
+  justify-content: center;
+  align-items: center; 
+  border-radius: 50%;
+}
+
+.footer_title
+{
+    font-size :70px;
+    color:white;
+}
+
+.lastpart                                    /*footer section*/
+{
+      height:100%;
+    width:100%;
+background-image: url('./asset/footer-bg.png');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+ display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+    padding-top:50px;
+    padding-bottom: 50px;
+    gap:10px;
+}
+.lastmedia
+{
+     display: flex;
+  justify-content: center;
+  align-items: center; 
+ gap:50px;
+  
+}
+
+.media5{
+    color:rgba(255, 255, 255, 0.673);
+    text-decoration: none;
+   display: inline-flex;
+   gap:5px;
+}
+.copyright{
+    padding:30px;
+    font-family: inter;
+    font-size:14px;
+    color:rgba(255, 255, 255, 0.673);
+    font-weight: 200;
+} 
+
+
+
+
+
+
+
+
+
