@@ -167,7 +167,7 @@ box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
     width:100%;
     background-color:#1A0B2E ;
     color:rgb(255, 255, 255);
-    padding:100px 50px 120px 50px;
+    padding:100px 50px 60px 50px;
     
      display:flex;
      justify-content: center;
@@ -226,4 +226,86 @@ hr{
     font-size: 15px;
     color:white;
 }
+.choose                                  /*Why choose section*/
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   padding:120px 200px;
+   gap:50px;
+   background-color: rgba(35, 14, 61, 1);
+   color: white;
+}
+.gridbox
+{
+    padding:40px;
+    border-radius:40px;
+ 
+   background: rgb(40, 11, 77);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+}
 
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto auto;
+    gap:30px;
+    width:90%;
+    max-width:1200px;
+    grid-template-areas: 
+    "box1 box2 box2"
+    "box1 box3 box3"
+    "box4 box4 box5";
+}
+.box1
+{
+   grid-area: box1;
+   display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:80px 30px;
+   
+    font-family: inter;
+    font-size:15px;
+    gap:10px;
+    letter-spacing: 2;
+}
+.box2
+{
+    
+   grid-area: box2;
+}
+.box3
+{
+   
+    grid-area: box3;
+}
+.box4
+{
+    
+    grid-area: box4;
+}
+.box5
+{
+    
+grid-area: box5;
+}
+.boximg
+{
+    height:50px;
+    width:50px;
+}
+.logotext
+{
+  font-size:20px;
+}
+.headline
+{
+   font-family: inter;
+   font-size:50px;
+   font-weight: 700;
+}
