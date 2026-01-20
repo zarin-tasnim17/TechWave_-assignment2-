@@ -486,13 +486,16 @@ background-position: center;
  @media (min-width: 993px)                                  /*large device adove 993px*/
   {
 
-  }
+  
+}
 
 
  @media (max-width: 576px)                       /*small device upto 576px*/
   {
     .boxes{
+
         flex-wrap: wrap;
+        margin: 20px;
        
     }
     .grid{
@@ -523,7 +526,62 @@ background-position: center;
         text-align: center;
     }
 
+    nav{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .banner{
+         padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .about{
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .choose
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+      
+    }
+    .video_part
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .lastpart
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #about_heading
+    {
+        font-size: 30px;
+    }
+    .headline
+    {
+         font-size: 30px;
+         text-align: center;
+         font-weight: 600;
+    }
+ 
+    .footer_title{
+        font-size: 40px;
+        background-size: cover;
+    }
+    .copyright{
+        padding: 0;
+    }
+    .lastmedia
+   
+    {
+        gap: 20px;
+    }
+
   }
+
 
 
 
