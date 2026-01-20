@@ -222,7 +222,8 @@ hr {
   font-size: 15px;
   color: white;
 }
-.choose                                  /*Why choose section*/ {
+.choose                                  /*Why choose section*/
+ {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -292,7 +293,8 @@ hr {
   font-weight: 800;
   letter-spacing: 2;
 }
-.video_part                                /*the full video section*/ {
+.video_part                                /*the full video section*/ 
+{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -302,7 +304,8 @@ hr {
   color: white;
   background-color: rgba(26, 11, 46, 1);
 }
-.video_section                              /*the full video card section*/ {
+.video_section                              /*the full video card section*/
+ {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -333,7 +336,7 @@ hr {
   height: 100%;
 }
 .text_content {
-  /*the title and description section of the card*/
+                                        /*the title and description section of the card*/
   padding: 20px;
   color: white;
   display: flex;
@@ -612,7 +615,7 @@ hr {
     z-index: 1001;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 15%; /* Position it in the lower part of the screen */
+    bottom: 15%; 
   }
 
 
@@ -628,7 +631,7 @@ hr {
  
 }
 
-@media (min-width:576px) and (max-width:992px)         /*576px to 992 px */
+@media (min-width:577px) and (max-width:992px)         /*577px to 992 px */
 {
 
 .hamburger {                                        /*humburger menu part*/
@@ -707,6 +710,9 @@ hr {
     justify-content: center;
   }
 
+
+ 
+   
 
 
 
